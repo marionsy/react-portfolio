@@ -1,9 +1,15 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
 import About from './components/About';
-import Project from './components/Project';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
 import Footer from './components/Footer';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
 import './App.css';
+import Portfolio from './components/Portfolio';
+
+library.add(fab);
 
 function App() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -13,15 +19,15 @@ function App() {
     if (currentPage === 'About') {
       return <About />;
     }
-    if (currentPage === 'Project') {
-      return <Project />;
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
     }
-    // if (currentPage === 'Contact') {
-    //   return <Contact />;
-    // }
-    // if (currentPage === 'Resume') {
-    //   return <Resume />;
-    // }
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
+    }
     return <About />;
   };
 
