@@ -7,11 +7,11 @@ const styles = {
   },
 }
 
-function Header() {
+function Header( { currentPage, handlePageChange } ) {
   return (
     <header style= {styles.header} className="header">
       <h1>Marion Sy</h1>
-      <Navbar />
+      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
     </header>
   );
 }
