@@ -2,7 +2,11 @@ import React from 'react';
 
 function Header() {
   return (
-    <div>This is my resume</div>
+    <p>
+    <a target="_blank" rel="noopener noreferrer" href="assets/Marion_Sy_Resume">
+        Marion Sy Resume
+</a>
+</p>
   );
 }
 

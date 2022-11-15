@@ -5,7 +5,7 @@ function About() {
     <section id="about" className="container">
     <div className="container">
       <h1 className="header-title">About Me.</h1>
-      <div class="col-sm-6 col-m-12 m-auto text-center">
+      <div className="col-sm-6 col-m-12 m-auto text-center">
         <img src="assets/marion.jpg" className="img-fluid" />
       </div>
       <h4 className="subtitle">
