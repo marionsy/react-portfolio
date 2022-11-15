@@ -54,7 +54,7 @@ function Contact() {
   };
 
  return (
-  <div className="container">
+  <div className="container contact">
     <div className="row">
       <div className="col-md-6 offset-md-3">
         <div className="card my-5">
