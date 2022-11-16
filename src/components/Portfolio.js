@@ -15,7 +15,7 @@ function Portfolio() {
     {
       image: 'assets/css.jpg',
       title: 'CSS Snippet Cheatsheet',
-      description: 'A simple cheatsheet that sllows users to view CSS style codes all in one place.',
+      description: 'A simple cheatsheet that sllows users to view CSS style codes all in one place. Users are able to click anywhere in the box and copy the code to their clipboard.',
       features: 'HTML, CSS, Flexbox',
       link: 'https://marionsy.github.io/css-snippet-cheatsheet/'
     },
@@ -65,18 +65,6 @@ function Portfolio() {
       )}
       </Row>
     </Container>
-    // <div className="col-xs-12 col-sm-12 col-lg-4 mb-4">
-    //   {projects.map((p) => 
-    //     <Project 
-    //       key = {p.title}
-    //       image = {p.image}
-    //       title={p.title} 
-    //       description={p.description} 
-    //       features={p.features} 
-    //       link={p.link} 
-    //     /> 
-    //   )}
-    // </div>
   );
 }
 

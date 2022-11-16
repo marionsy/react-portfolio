@@ -6,10 +6,12 @@ import Resume from './components/Resume';
 import Footer from './components/Footer';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
+import { fas } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
 import Portfolio from './components/Portfolio';
 
-library.add(fab);
+
+library.add(fab, fas);
 
 function App() {
   const [currentPage, setCurrentPage] = useState('About');

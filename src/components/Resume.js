@@ -11,18 +11,18 @@ function Header() {
 
 <section className="container skills">
 <div className="skillsCard">
-  <FontAwesomeIcon icon="fa-solid fa-code" />
+  <FontAwesomeIcon icon="fa-solid fa-code" className="fa-2x"/>
   <h3>Technical Skills</h3>
   <p>
     HTML, CSS, JavaScript, jQuery, Bootstrap, Bulma, React.js, Node.js, Express.js, MySQL, NoSQL, Handlebars.js
   </p>
   <p id="skillsIcon">
-    <FontAwesomeIcon icon="fab fa-html5" />
-    <FontAwesomeIcon icon="fab fa-css3-alt" />
-    <FontAwesomeIcon icon="fab fa-js-square" />
-    <FontAwesomeIcon icon="fab fa-npm" />
-    <FontAwesomeIcon icon="fab fa-node" />
-    <FontAwesomeIcon icon="fab fa-react" />
+    <FontAwesomeIcon icon="fab fa-html5" className="fa-2x px-2"/>
+    <FontAwesomeIcon icon="fab fa-css3-alt" className="fa-2x px-2"/>
+    <FontAwesomeIcon icon="fab fa-js-square" className="fa-2x px-2"/>
+    <FontAwesomeIcon icon="fab fa-npm" className="fa-2x px-2"/>
+    <FontAwesomeIcon icon="fab fa-node" className="fa-2x px-2"/>
+    <FontAwesomeIcon icon="fab fa-react" className="fa-2x px-2"/>
   </p>
 </div>
 </section>

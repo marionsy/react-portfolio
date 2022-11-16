@@ -1,5 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.marion {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+.navbar, .subtitle, .card-text {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .right-aligned {
   justify-content: flex-end;
+}
+
+.img-fluid {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
 }
 
 #signup-form {
@@ -8,7 +33,7 @@
 }
 
 .skills {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   padding-bottom: 20px;
   display: flex;
@@ -25,5 +50,10 @@
   border-radius: 5px;
   box-shadow: 0 0 30px -5px hsl(0deg 0% 21% / 45%);
 }
+
+/* .footer {
+  bottom: 0;
+  width: 100px;
+} */
 
 
