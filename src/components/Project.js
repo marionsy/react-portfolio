@@ -5,10 +5,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function Project({title, image, description, features, link}) {
   return (
     <Col xs={4}>
-      <div className="card text-center h-100">
+      <div className="card text-center h-100 mt-3 projects">
         <img src={image} className="card-img-top border-bottom" alt={title} />
         <div className="card-body mb-5 pl-0">
-          <h3>{title}</h3>
+          <h4>{title}</h4>
           <p className="card-text">
             {description}
           </p>

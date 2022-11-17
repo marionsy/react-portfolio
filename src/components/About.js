@@ -1,15 +1,13 @@
 import React from 'react';
 import '../App.css';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
+
 
 function About() {
   return (
-    <Container>
-      <Row>
-    <section id="about" className="container">
-    <div className="container">
-      <h2 className="header-title text-center mt-3">About Me</h2>
+
+    <section id="about" className="container mt-3">
+    <h2 className="header-title text-center">About Me</h2>
+    <div className="container about mr-5">
       <div className="col-6 text-center">
         <img src="assets/marion.jpg" className="img-fluid" />
       </div>
@@ -21,8 +19,7 @@ function About() {
       </div>
     </div>
   </section>
-  </Row>
-    </Container>
+
   );
 }
 
