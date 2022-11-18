@@ -26,6 +26,6 @@
    * Bootstrap
    * React.js
    
-   ## Link to deployed Heroku application
+   ## Link to deployed application
    
    https://marionsy.github.io/react-portfolio/ 
