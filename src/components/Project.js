@@ -2,7 +2,7 @@ import React from 'react';
 import Col from 'react-bootstrap/Col';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-function Project({title, image, description, features, link}) {
+function Project({title, image, description, features, link, github}) {
   return (
     <Col xs={4}>
       <div className="card text-center mt-3 projects">
@@ -19,11 +19,15 @@ function Project({title, image, description, features, link}) {
               Features: {features}
             </small>
           </p>
-          <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
+          <div className="gitLinks w-100 py-3 pt-3 pl-0 ">
             <a href={link} target="_blank" className="btn">
             <FontAwesomeIcon icon="fa-solid fa-link" className="fa-2x"/>
             </a>
-          </div>
+         
+            <a href={github} target="_blank" className="btn">
+            <FontAwesomeIcon icon={["fab", "github"]} className="fa-2x"/>
+            </a>
+            </div>
         </div>
       </div>
     </Col>
