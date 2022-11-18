@@ -19,7 +19,7 @@ function Project({title, image, description, features, link, github}) {
               Features: {features}
             </small>
           </p>
-          <div className="gitLinks w-100 py-3 pt-3 pl-0 ">
+          <div className="gitLinks w-100  pt-3 pl-0 ">
             <a href={link} target="_blank" className="btn">
             <FontAwesomeIcon icon="fa-solid fa-link" className="fa-2x"/>
             </a>
