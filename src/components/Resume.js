@@ -21,7 +21,7 @@ function Header() {
       <FontAwesomeIcon icon="fa-regular fa-file" className="fa-2x px-2"/>
         <h3>Resume</h3>
          <p>
-         <a target="_blank" rel="noopener noreferrer" href="assets/Marion_Sy_Resume.pdf">
+         <a target="_blank" rel="noopener noreferrer" className='resume' href="assets/Marion_Sy_Resume.pdf">
            Marion Sy Resume </a>
          </p>
       </div>
