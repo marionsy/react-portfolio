@@ -11,8 +11,6 @@ import { far } from '@fortawesome/free-regular-svg-icons';
 import './App.css';
 import Portfolio from './components/Portfolio';
 
-
-
 library.add(fab, fas, far);
 
 function App() {
